@@ -1,0 +1,220 @@
+{
+  "Resources": [
+    {
+      "ResourceId": 1,
+      "Name": "MonoPropellant",
+      "Abbreviation": "Resource/Abbreviation/MP",
+      "IsRecipeInDatabase": false,
+      "IsRecipe": false,
+      "ResourceProperties": {
+        "FlowMode": "STAGE_PRIORITY_FLOW",
+        "TransferMode": "PUMP",
+        "NonStageable": true
+      },
+      "RecipeProperties": null
+    },
+    {
+      "ResourceId": 2,
+      "Name": "SolidFuel",
+      "Abbreviation": "Resource/Abbreviation/SF",
+      "IsRecipeInDatabase": false,
+      "IsRecipe": false,
+      "ResourceProperties": {
+        "FlowMode": "NO_FLOW",
+        "TransferMode": "NONE",
+        "NonStageable": false
+      },
+      "RecipeProperties": null
+    },
+    {
+      "ResourceId": 3,
+      "Name": "IntakeAir",
+      "Abbreviation": "Resource/Abbreviation/Air",
+      "IsRecipeInDatabase": false,
+      "IsRecipe": false,
+      "ResourceProperties": {
+        "FlowMode": "ALL_VESSEL",
+        "TransferMode": "PUMP",
+        "NonStageable": false
+      },
+      "RecipeProperties": null
+    },
+    {
+      "ResourceId": 4,
+      "Name": "TestRocks",
+      "Abbreviation": "Resource/Abbreviation/TR",
+      "IsRecipeInDatabase": false,
+      "IsRecipe": false,
+      "ResourceProperties": {
+        "FlowMode": "ALL_VESSEL",
+        "TransferMode": "PUMP",
+        "NonStageable": false
+      },
+      "RecipeProperties": null
+    },
+    {
+      "ResourceId": 5,
+      "Name": "EVAPropellant",
+      "Abbreviation": "Resource/Abbreviation/EP",
+      "IsRecipeInDatabase": false,
+      "IsRecipe": false,
+      "ResourceProperties": {
+        "FlowMode": "STAGE_PRIORITY_FLOW",
+        "TransferMode": "PUMP",
+        "NonStageable": true
+      },
+      "RecipeProperties": null
+    },
+    {
+      "ResourceId": 6,
+      "Name": "Hydrogen",
+      "Abbreviation": "Resource/Abbreviation/H",
+      "IsRecipeInDatabase": false,
+      "IsRecipe": false,
+      "ResourceProperties": {
+        "FlowMode": "STACK_PRIORITY_SEARCH",
+        "TransferMode": "PUMP",
+        "NonStageable": false
+      },
+      "RecipeProperties": null
+    },
+    {
+      "ResourceId": 7,
+      "Name": "Methane",
+      "Abbreviation": "Resource/Abbreviation/LF",
+      "IsRecipeInDatabase": false,
+      "IsRecipe": false,
+      "ResourceProperties": {
+        "FlowMode": "STACK_PRIORITY_SEARCH",
+        "TransferMode": "PUMP",
+        "NonStageable": false
+      },
+      "RecipeProperties": null
+    },
+    {
+      "ResourceId": 8,
+      "Name": "Oxidizer",
+      "Abbreviation": "Resource/Abbreviation/Ox",
+      "IsRecipeInDatabase": false,
+      "IsRecipe": false,
+      "ResourceProperties": {
+        "FlowMode": "STACK_PRIORITY_SEARCH",
+        "TransferMode": "PUMP",
+        "NonStageable": false
+      },
+      "RecipeProperties": null
+    },
+    {
+      "ResourceId": 9,
+      "Name": "Methalox",
+      "Abbreviation": "Resource/Abbreviation/MO",
+      "IsRecipeInDatabase": true,
+      "IsRecipe": true,
+      "ResourceProperties": null,
+      "RecipeProperties": {
+        "Ingredients": [
+          {
+            "resourceID": 7,
+            "units": 0.2
+          },
+          {
+            "resourceID": 8,
+            "units": 0.8
+          }
+        ]
+      }
+    },
+    {
+      "ResourceId": 10,
+      "Name": "MethaneAir",
+      "Abbreviation": "Resource/Abbreviation/MA",
+      "IsRecipeInDatabase": true,
+      "IsRecipe": true,
+      "ResourceProperties": null,
+      "RecipeProperties": {
+        "Ingredients": [
+          {
+            "resourceID": 7,
+            "units": 1.0
+          },
+          {
+            "resourceID": 3,
+            "units": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "ResourceId": 11,
+      "Name": "Uranium",
+      "Abbreviation": "Resource/Abbreviation/Uranium",
+      "IsRecipeInDatabase": false,
+      "IsRecipe": false,
+      "ResourceProperties": {
+        "FlowMode": "ALL_VESSEL",
+        "TransferMode": "PUMP",
+        "NonStageable": false
+      },
+      "RecipeProperties": null
+    },
+    {
+      "ResourceId": 12,
+      "Name": "ElectricCharge",
+      "Abbreviation": "Resource/Abbreviation/EC",
+      "IsRecipeInDatabase": false,
+      "IsRecipe": false,
+      "ResourceProperties": {
+        "FlowMode": "STAGE_PRIORITY_FLOW",
+        "TransferMode": "PUMP",
+        "NonStageable": true
+      },
+      "RecipeProperties": null
+    },
+    {
+      "ResourceId": 13,
+      "Name": "Xenon",
+      "Abbreviation": "Resource/Abbreviation/Xe",
+      "IsRecipeInDatabase": false,
+      "IsRecipe": false,
+      "ResourceProperties": {
+        "FlowMode": "STAGE_PRIORITY_FLOW",
+        "TransferMode": "PUMP",
+        "NonStageable": false
+      },
+      "RecipeProperties": null
+    },
+    {
+      "ResourceId": 14,
+      "Name": "XenonEC",
+      "Abbreviation": "Resource/Abbreviation/Xe",
+      "IsRecipeInDatabase": true,
+      "IsRecipe": true,
+      "ResourceProperties": null,
+      "RecipeProperties": {
+        "Ingredients": [
+          {
+            "resourceID": 13,
+            "units": 1.0
+          },
+          {
+            "resourceID": 12,
+            "units": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "ResourceId": 15,
+      "Name": "Ablator",
+      "Abbreviation": "Resource/Abbreviation/Ab",
+      "IsRecipeInDatabase": false,
+      "IsRecipe": false,
+      "ResourceProperties": {
+        "FlowMode": "STACK_PRIORITY_SEARCH",
+        "TransferMode": "PUMP",
+        "NonStageable": false
+      },
+      "RecipeProperties": null
+    }
+  ]
+}
